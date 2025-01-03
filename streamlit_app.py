@@ -3,7 +3,6 @@ from matplotlib import pyplot as plt
 import numpy as np
 from scipy.integrate import odeint
 import plotly.express as px
-from PIL import Image
 
 st.set_page_config(
    page_title="C'est le mauvais choix"
@@ -12,5 +11,4 @@ st.set_page_config(
 st.title("Tu ne veux vraiment pas ? 😭")
 st.link_button("Si si je suis désolé ne pleure pas", "https://adelemarcon.github.io/DM6adele.html",type="primary",use_container_width=True)
 st.link_button("Non", "https://mauvaischoix.streamlit.app/",type="primary",use_container_width=True)
-image = Image.open('./Downloads/tortuenon.png')
-st.image(image)
+st.image('./Downloads/tortuenon.png')
