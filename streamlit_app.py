@@ -11,4 +11,4 @@ st.set_page_config(
 st.title("Tu ne veux vraiment pas ? 😭")
 st.link_button("Si si je suis désolé ne pleure pas", "https://adelemarcon.github.io/DM6adele.html",type="primary",use_container_width=True)
 st.link_button("Non", "https://mauvaischoix.streamlit.app/",type="primary",use_container_width=True)
-st.image('./Downloads/tortuenon.png')
+st.image('https://github.com/adelemarcon/NON/blob/main/tortuenon.png?raw=true')
