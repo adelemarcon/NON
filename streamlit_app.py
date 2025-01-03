@@ -3,6 +3,7 @@ from matplotlib import pyplot as plt
 import numpy as np
 from scipy.integrate import odeint
 import plotly.express as px
+from PIL import Image
 
 st.set_page_config(
    page_title="❤J'ai une petite question❤"
