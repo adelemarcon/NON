@@ -6,7 +6,7 @@ import plotly.express as px
 from PIL import Image
 
 st.set_page_config(
-   page_title="❤J'ai une petite question❤"
+   page_title="C'est le mauvais choix"
 )
 
 st.title("Tu ne veux vraiment pas ? 😭")
