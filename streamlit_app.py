@@ -1,6 +1,13 @@
 import streamlit as st
+from matplotlib import pyplot as plt
+import numpy as np
+from scipy.integrate import odeint
+import plotly.express as px
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+st.set_page_config(
+   page_title="❤J'ai une petite question❤"
 )
+
+st.title("Tu ne veux vraiment pas ? 😭")
+st.link_button("Si si je suis désolé ne pleure pas", "https://adelemarcon.github.io/DM6adele.html",type="primary",use_container_width=True)
+st.link_button("Non", "https://mauvaischoix.streamlit.app/",type="primary",use_container_width=True)
